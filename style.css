@@ -1,7 +1,7 @@
  body {
      background: linear-gradient(rgba(0, 0, 0, 0.5),
              rgba(0, 0, 0, 0.5)),
-         url("src/img/Manhã\ movimentada\ na\ cidade.png");
+         url(src/img/fundo.png);
      background-size: cover;
      background-position: center
  }
@@ -10,7 +10,6 @@
      width: 300px;
      display: block
  }
-
  .page-wrapper {
      min-height: 100vh;
      display: flex;
