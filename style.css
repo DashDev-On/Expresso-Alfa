@@ -1,0 +1,92 @@
+ body {
+     background: linear-gradient(rgba(0, 0, 0, 0.5),
+             rgba(0, 0, 0, 0.5)),
+         url("src/img/Manhã\ movimentada\ na\ cidade.png");
+     background-size: cover;
+     background-position: center
+ }
+
+ .logo {
+     width: 300px;
+     display: block
+ }
+
+ .page-wrapper {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 40px 20px;
+     position: relative;
+ }
+
+ .pharmacy-name {
+
+     font-size: 38px;
+     font-weight: bold;
+     color: #0c3d33;
+ }
+
+ .tagline {
+     margin-top: 6px;
+     color: #eff8f6;
+ }
+
+ .link-btn {
+     width: 320px;
+     padding: 16px;
+     border-radius: 16px;
+     display: flex;
+     align-items: center;
+     gap: 12px;
+     margin-top: 16px;
+     text-decoration: none;
+     font-weight: 500;
+     transition: .3s;
+ }
+
+ .link-btn:hover {
+     transform: translateY(-3px);
+     box-shadow: 0 10px 20px rgba(255, 250, 250, 0.959);
+ }
+
+ .whatsapp {
+     background: linear-gradient(135deg, #107864, #2d9e78);
+     color: white;
+     position: relative;
+     /* base para posicionamento */
+
+ }
+
+ .maps {
+     background: linear-gradient(135deg, #504505, #646a72);
+     color: white;
+ }
+
+ .review {
+     background: rgb(42, 123, 155);
+     border: 2px solid rgba(102, 110, 109, 0.2);
+     color: #eef5f3;
+ }
+
+ .footer {
+     margin-top: 40px;
+     font-size: 12px;
+     color: #f3f5f4;
+ }
+
+ .icon-box {
+     width: 38px;
+     height: 38px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 10px;
+     background: rgba(255, 255, 255, 0.171);
+     position: relative;
+ }
+
+ .review .icon-box {
+     background: rgb(57, 161, 168);
+ }
